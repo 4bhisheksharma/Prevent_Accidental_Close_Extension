@@ -1,4 +1,3 @@
-/* General Styling */
 body {
     font-family: 'Poppins', sans-serif;
     background: #161623;
@@ -85,4 +84,3 @@ input:checked + .slider:before {
     opacity: 0.7;
     margin-top: 15px;
 }
-

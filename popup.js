@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let toggle = document.getElementById("toggle");
+    const toggle = document.getElementById("toggle");
 
-    // Get stored setting
+    // Load stored setting
     chrome.storage.local.get("enabled", function (data) {
         toggle.checked = data.enabled || false;
     });

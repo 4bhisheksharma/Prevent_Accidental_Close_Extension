@@ -3,11 +3,7 @@
   "name": "Confirm Before Closing",
   "version": "1.0",
   "description": "Warns before closing tabs to prevent accidental browser quits.",
-  "permissions": ["storage", "scripting"],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "host_permissions": ["<all_urls>"],
+  "permissions": ["storage"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -15,6 +11,9 @@
       "48": "icon.png",
       "128": "icon.png"
     }
+  },
+  "background": {
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
