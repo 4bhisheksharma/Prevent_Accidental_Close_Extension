@@ -28,3 +28,8 @@ This Chrome extension provides a warning prompt when the user attempts to close 
 
 5. Click on "Load unpacked" and select the directory where the extension files are located.
 
+
+_Please note: This extension currently provide a warning when the user navigates to another page within the same website. In such cases, you can disable the extension by turning off the toggle button._
+
+
+
