@@ -17,3 +17,14 @@ This Chrome extension provides a warning prompt when the user attempts to close 
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/prevent-accidental-quit.git
+
+2. Navigate to the extension's directory:
+   ```bash
+      cd prevent-accidental-quit
+   
+3. Open Chrome and go to chrome://extensions/.
+
+4. Enable "Developer mode" by toggling the switch in the top right corner.
+
+5. Click on "Load unpacked" and select the directory where the extension files are located.
+
