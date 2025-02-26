@@ -1,24 +1,24 @@
 {
   "manifest_version": 3,
   "name": "Confirm Before Closing",
-  "version": "1.3",
+  "version": "1.4",
   "description": "Warns before closing tabs to prevent accidental browser quits.",
   "permissions": ["storage"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon.png",
-      "48": "icon.png",
-      "128": "icon.png"
+      "16": "/assets/icon.png",
+      "48": "/assets/icon.png",
+      "128": "/assets/icon.png"
     }
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "/scripts/background.js"
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": ["/scripts/content.js"]
     }
   ]
 }
