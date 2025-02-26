@@ -20,7 +20,7 @@ This Chrome extension provides a warning prompt when the user attempts to close 
 
 2. Navigate to the extension's directory:
    ```bash
-      cd prevent-accidental-quit
+   cd prevent-accidental-quit
    
 3. Open Chrome and go to chrome://extensions/.
 
